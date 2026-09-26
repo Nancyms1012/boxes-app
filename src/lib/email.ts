@@ -1,5 +1,6 @@
 // Envío de email de confirmación con QR usando Resend
 // Se llama desde el cliente después de guardar la inscripción
+// API Key debe estar en .env.local como RESEND_API_KEY
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY || '';
 
