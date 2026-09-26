@@ -1,4 +1,7 @@
-'use client';
+import { redirect } from 'next/navigation';
 
-export { default } from './boxes/page';
+export default function Home() {
+  redirect('/boxes');
+}
+
 
